@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin">
+    <title>Ramo Creative</title>
+
+    <!---------------- Favicon ---------------->
+
+    <link rel="shortcut icon" type="image/jpg" href="Assets/Favicon.svg"/>
+
+    <!---------------- Font-family ---------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!---------------- Remix icon ---------------->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <!---------------- CSS ---------------->
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+
+    <!---------------- Scroll up ---------------->
+
+    <div id="progress">
+        <span id="progress-value"><i class="ri-arrow-up-line"></i></span>
+    </div>
+
+    <!---------------- Header ---------------->
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#">Ramo Creative</a>
+                <button class="menu hamburger-button" aria-controls="navigation" aria-expanded="false">
+                    <svg  stroke="var(--clr-primary-400)" class="hamburger" viewBox=" 0 0 100 100" width =36>
+                        <line class="line top" 
+                        x1="90" x2="10" y1="50" y2="50"
+                        stroke-width="10"
+                        stroke-linecap="round"
+                        ></line>
+
+                        <line class="line bottom" 
+                        x1="90" x2="10" y1="50" y2="50"
+                        stroke-width="10"
+                        stroke-linecap="round"
+                        ></line>
+                    </svg>
+                </button>
+                <nav class="navigation" id="navigation">
+                    <ul aria-label="Primary" role="list" class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="request.html">Request</a></li>
+                    </ul>
+                    <div class="contact-container-header">
+                        <p>Get in touch</p>
+                        <div class="sm-container">
+                            <i class="ri-mail-send-line"></i>
+                            <i class="ri-twitter-x-line"></i>
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-behance-line"></i>
+                        </div>
+                    </div>
+                </nav>
+                <ul aria-label="Primary" role="list" class="nav-list | display-sm-none display-md-inline-block">
+                    <li><a href="#">Let's Talk</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!---------------- Main ---------------->
+
+    <main>
+
+        <!-- Home -->
+
+        <section class="padding-block-large" data-small="">
+            <div class="container">
+                <div class="flow centering-contents">
+                    <p class="slide-in">WELCOME TO MY WORLD <br> <span class="text-primary-400 | slide-in slide-in-span">-</span></p>
+                    <h1 class="fs-primary-heading fw-semi-bold | slide-in slide-in1">I'm Ramo, and I will make your <br> ideas become reality</h1>
+                    <p class="slide-in slide-in2" style="max-width: 76ch;">My name is Raman S. Jalal, known as “Ramo Creative”. A passionate graphic designer specializing in crafting eye-catching logos and impactful brand experiences, based in Iraq.</p>
+                    <div class="button-container | slide-in slide-in3">
+                        <button class="button">Let's Talk<i class="ri-mail-send-line"></i></button>
+                        <button class="button" data-type="inverted">Projects<i class="ri-arrow-right-line"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+
+        <section class="padding-block-large">
+        </section>
+
+        <section class="cta | padding-block-large bg-secondary-400 text-neutral-100">
+            <div class="container">
+                <div class="even-columns vertical-align-center">
+                    <div>
+                        <p class="fs-secondary-heading fw-semi-bold justify-self-center | slide-in slide-in1">Let's make your ideas become reality</p>
+                    </div>
+                    <div class="justify-self-end justify-self-center">
+                        <button class="button" data-type="inverted">Let's Talk<i class="ri-mail-send-line"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!---------------- Footer ---------------->
+
+    <footer class="padding-block-midum bg-neutral-100 text-neutral-900">
+        <div class="container">
+            <div class="even-columns vertical-align-center justify-self-center">
+                <p>Ramo Creative ©2023. All Rights Reserved</p>
+                <div class="contact-container-footer justify-self-end justify-self-center">
+                    <div class="sm-container sm-container-footer">
+                        <i class="ri-mail-send-line"></i>
+                        <i class="ri-twitter-x-line"></i>
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-behance-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!---------------- JavaScript ---------------->
+
+    <script defer src="JavaScript/script.js"></script>
+
+</body>
+</html>
